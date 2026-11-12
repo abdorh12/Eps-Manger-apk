@@ -7,6 +7,15 @@ android {
     namespace = "com.abdorrh.peteacher"
     compileSdk = 35
 
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
     defaultConfig {
         applicationId = "com.abdorrh.peteacher"
         minSdk = 23
